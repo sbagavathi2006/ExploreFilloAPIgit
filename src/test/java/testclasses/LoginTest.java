@@ -15,7 +15,7 @@ public class LoginTest extends BaseClass{
 		loginPage.enterUserName("username");
 		loginPage.enterPwd("password");
 		loginPage.loginBtnClick();
-		Thread.sleep(5000);
+//		Thread.sleep(1000);
 	}
 
 }
