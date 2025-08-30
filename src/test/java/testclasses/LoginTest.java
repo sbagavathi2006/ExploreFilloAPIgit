@@ -13,7 +13,7 @@ public class LoginTest extends BaseClass{
 		LoginPage loginPage = new LoginPage(driver);
 		loginPage.getStartedBtnClick();
 		loginPage.clickSignInLink();
-		loginPage.enterUserName(username);
+		loginPage.enterUserName(userName);
 		loginPage.enterPwd(password);
 		loginPage.loginBtnClick();
 	}
