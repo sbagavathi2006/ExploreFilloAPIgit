@@ -9,7 +9,7 @@ import utilities.ExcelDataProvider;
 public class LoginTest extends BaseClass{
 	
 	@Test(dataProvider = "loginTestData", dataProviderClass = ExcelDataProvider.class)
-	public void loginValidations(String validation, String username, String password, String message) {
+	public void loginValidations(String validation, String userName, String password, String message) {
 		LoginPage loginPage = new LoginPage(driver);
 		loginPage.getStartedBtnClick();
 		loginPage.clickSignInLink();
