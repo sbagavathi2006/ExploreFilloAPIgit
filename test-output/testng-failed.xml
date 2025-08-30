@@ -5,7 +5,10 @@
     <classes>
       <class name="testclasses.LoginTest">
         <methods>
+          <include name="launchAppln"/>
           <include name="loginValidations"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
         </methods>
       </class> <!-- testclasses.LoginTest -->
     </classes>
